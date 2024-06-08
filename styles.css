@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.danh-sach-mon, .them-don-moi, .lich-su-don-hang {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.them-don-moi form {
+    display: flex;
+    flex-direction: column;
+}
+
+.them-don-moi label {
+    margin-bottom: 5px;
+}
+
+.them-don-moi select,
+.them-don-moi input[type="number"],
+.them-don-moi button {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.them-don-moi button {
+    cursor: pointer;
+}
