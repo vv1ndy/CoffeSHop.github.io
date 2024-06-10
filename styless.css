@@ -1,0 +1,112 @@
+/* General styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Coffee menu */
+ 
+    .coffee-menu {
+        display: flex; /* Enable flexbox layout */
+        flex-direction: row; /* Arrange items in a row (horizontally) */
+        flex-wrap: wrap; /* Allow items to wrap to multiple lines if needed */
+        justify-content: space-between; /* Distribute items evenly with space between them */
+      }
+      
+      .coffee-menu {
+        display: grid; /* Enable CSS Grid layout */
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)); /* Create columns with equal width while allowing them to grow */
+        gap: 20px; /* Add spacing between items */
+      }
+      
+  .coffee-item {
+    flex-basis: auto;
+    flex-grow: 1;
+    /* Other styles remain the same */
+  }
+  .coffee-item {
+    width: auto; /* Remove fixed width */
+    /* Other styles remain the same */
+  }
+  
+  .coffee-item {
+    width: 30%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .coffee-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Add a subtle border */
+  }
+  
+  .coffee-item h3 {
+    margin-bottom: 5px;
+  }
+  
+  .coffee-item p {
+    margin-bottom: 0;
+  }
+  
+  .coffee-item button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Order list */
+  .order-list {
+    margin-bottom: 20px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .order-item span {
+    margin-right: 20px;
+  }
+  
+  .order-item button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Total price */
+  .total-price {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
